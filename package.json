@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently --kill-others \"cd api & npm run start\" \"cd my-balance-app & yarn start\"",
     "test": "cd api & jest --no-cache",
-    "install": "npm i & cd api & npm i & cd.. & cd my-balance-app & npm i\""
+    "install": "npm i & cd api & npm i & cd.. & cd my-balance-app & yarn\""
   },
   "repository": {
     "type": "git",
